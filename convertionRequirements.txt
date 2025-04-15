@@ -1,5 +1,5 @@
 tensorflow==2.15.0
 tensorflow-decision-forests==1.8.1
-install packaging==23.2
+packaging==23.2
 ml-dtypes==0.2.0
-install tensorflowjs
+tensorflowjs

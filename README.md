@@ -12,7 +12,7 @@ Create a new python environemnt to avoid version conflicts
 ## Install dependencies
 Run the command below
 ```bash
-pip install convertionRequirements
+pip install -r convertionRequirements.txt
 ```
 
 ## Convert the model

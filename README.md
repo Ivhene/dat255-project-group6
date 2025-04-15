@@ -20,3 +20,6 @@ To convert a model to the json format, use
 ```bash
 tensorflowjs_converter --input_format=keras path/to/model/name.h5 ./tfjs_model_output
 ```
+
+## Replace the model
+In the public folder, replace the tfjs_model_output folder with the one you just got from the command above

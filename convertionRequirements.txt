@@ -1,4 +1,11 @@
+keras
 tensorflow==2.15.0
+scikit-learn
+numpy
+scipy
+notebook
+matplotlib
+gradio
 tensorflow-decision-forests==1.8.1
 packaging==23.2
 ml-dtypes==0.2.0

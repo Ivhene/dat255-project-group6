@@ -1,25 +1,11 @@
-# Setup project
+# CheXpert Model Training
+## Prerequisites for running locally
+* Set up fresh Python environment: `python -m venv directory_name`
+* `cd` into directory and activate the environment in your shell: `. bin/activate` (select activation script according to your shell)
+* Install [PyTorch](https://pytorch.org/get-started/locally/) in Python environment
+* Install Jupyter Lab: `pip install jupyterlab`
+* Run Jupyter Lab: `jupyter lab`
+* Remember to adjust `DATA_DIR`, `batch_size` and other variables
 
-To run locally, create a .env file with the following content
-```
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
-
-# Convert a model
-## Create a new python environment
-Create a new python environemnt to avoid version conflicts
-
-## Install dependencies
-Run the command below
-```bash
-pip install -r convertionRequirements.txt
-```
-
-## Convert the model
-To convert a model to the json format, use
-```bash
-tensorflowjs_converter --input_format=keras path/to/model/name.h5 ./tfjs_model_output
-```
-
-## Replace the model
-In the public folder, replace the tfjs_model_output folder with the one you just got from the command above
+## Notes for running in Colab
+* Select `Runtime` -> `Change runtime type` and make sure a GPU or TPU is selected.

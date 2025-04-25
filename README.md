@@ -9,3 +9,6 @@
 
 ## Notes for running in Colab
 * Select `Runtime` -> `Change runtime type` and make sure a GPU or TPU is selected.
+
+## Try out the webapp
+If you want to try out the webapp, you can use any of the images from the valid folder in this repo at https://huggingface.co/spaces/olefb/CheXpertLabeler 
